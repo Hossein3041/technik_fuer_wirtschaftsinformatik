@@ -1,0 +1,409 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.offline.inverted {
+    -webkit-filter: invert(100%);
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background: radial-gradient(#33383f, rgb(42, 47,53));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.positiv_response{
+	color: green;
+	height: 80vh;
+	font-size: 30px;
+}
+.negativ_response{
+	color: red;
+	height: 80vh;
+	font-size: 30px;
+}
+.regis{
+	color: green;
+}
+.main{
+	text-align:center;
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.red-message{
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+.red-input{
+	border: 2px solid red;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: skyblue;
+	border: 3px solid ;
+	border-radius: 30px;
+}
+li{
+	float: left;
+	align-content: center;
+	padding: 40px;
+	font-size: 30px;
+}
+li:hover{
+	background-color: blue;
+	border-radius: 10;
+}
+.active {
+  	background-color: mediumblue;
+}
+.kalago-div{
+	padding: 0;
+	margin: 0;
+	border: 3px solid indianred;
+	border-radius: 5vh;
+	align-items: left;
+	text-align: left;
+}
+.eingabe{color: white}
+.output{
+	size: 100px;
+	font-family: sans-serif, Arial, Verdana;
+	font-size: 60px;
+}
+form.login-form{ 
+	height: 500px; 
+	width: 500px; 
+	padding: 40px; 
+	border-radius: 8px; 
+	background-color:#222831; 
+	box-shadow: 4px 4px 1px rgb(0,0,0,0.404); 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: space-evenly; 
+	align-items: center;
+}
+h2{
+	color: white; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+	font-size: 38px; 
+	background-image: linear-gradient(to right, rgb(162, 0, 255), rgb(74,15,236)); 
+	background-size: 65%; border: 10px ; 
+	border-radius: 100%; 
+	background-position: bottom; 
+	background-repeat: no-repeat; 
+	line-height: 60px; 
+	width: 600px; 
+	height: 60px
+}
+form.login-form .input_contents{
+ 	display: flex;
+ 	flex-direction: column; 
+ 	align-items: center;
+ 	justify-content: center;
+ }
+form.login-form input{
+	height: 64px;
+	width: 240px;
+	margin: 15px;
+	padding: 0px 25px;
+	border-radius: 10px;
+	border: none;
+	background-color: #373e49;
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.212);
+	color: white;
+	font-size: 20px;
+	transition: 0.2s;
+}
+form.login-form input:hover{
+	background-color: #47505f;
+}
+form.login-form input:focus{
+	outline: none;
+	background-color: blue;
+	width: 256px;
+}
+form.login-form input::placeholder{
+	color: rgb(159, 161, 190);
+}
+form.login-form button { 
+	user-select: none; 
+	height: 64px; 
+	width: 140px; 
+	border-radius: 1000px; 
+	border: none; color: #FF66FF; 
+	font-family: sans-serif; 
+	font-size: 22px; 
+	background: linear-gradient(to right, rgb(162, 0, 255), rgb(74, 15, 236))
+}
+form.login-form button:hover{
+	width: 200px; 
+	color: green
+}
+.button:hover{
+	width: 300px; 
+	color: green
+}
+.button:focus {
+	outline: none;
+	width: 200px;
+}
+.button{
+	user-select: none; 
+	height: 64px; 
+	width: 200px; 
+	border-radius: 1000px; 
+	border: none; color: #FF66FF; 
+	font-family: sans-serif; 
+	font-size: 22px; 
+	background: linear-gradient(to right, rgb(162, 0, 255), rgb(74, 15, 236))
+}
+.button2{
+	user-select: none; 
+	height: 64px; 
+	width: 90px; 
+	border-radius: 100px; 
+	border: none; color: #FF66FF; 
+	font-family: sans-serif; 
+	font-size: 15px; 
+	background: linear-gradient(to right, rgb(162, 0, 255), rgb(74, 15, 236))
+}
+.button2:focus{
+	outline: none;
+	width: 100px;
+}
+.button2:hover{
+	width: 120px; 
+	color: green
+}
+form.login-form button:focus{
+	outline: none;
+	width: 200px;
+}
+form.reg-form { 
+	height: 1300px; 
+	width: 600px; 
+	padding: 40px; 
+	border-radius: 8px; background-color: #222831; 
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.404); 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: space-evenly; 
+	align-items: center; 
+};
+h2 { 
+	color: white; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+	font-size: 38px; 
+	background-image: linear-gradient(to right, rgb(162, 0, 255), rgb(74, 15, 236)); 
+	background-size: 65%; 
+	border: 10px ; 
+	border-radius: 100%; 
+	background-position: bottom; 
+	background-repeat: no-repeat; 
+	line-height: 60px; 
+	width: 600px; 
+	height: 60px; 
+};
+form.reg-form .input-contents { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	justify-content: center; 
+}
+form.reg-form input { 
+	height: 64px; 
+	width: 240px; 
+	margin: 15px; 
+	padding: 0px 25px; 
+	border-radius: 10px; 
+	border: none; 
+	background-color: #373e49; 
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.212); 
+	color: white; 
+	font-size: 20px; 
+	transition: 0.2s; 
+};
+form.reg-form input:hover { 
+	background-color: #47505f; 
+}
+form.reg-form input:focus { 
+	outline: none; 
+	background-color: blue; 
+	width: 256px; 
+}
+form.reg-form input::placeholder { 
+	color: rgb(159, 161, 190); 
+}
+form.reg-form button { 
+	user-select: none; 
+	height: 64px; 
+	width: 140px; 
+	border-radius: 1000px; 
+	border: none; 
+	color: #FF66FF; 
+	font-family: sans-serif; 
+	font-size: 22px; 
+	background: linear-gradient(to right, rgb(162, 0, 255), rgb(74, 15, 236)); 
+}
+form.reg-form button:hover { 
+	width: 200px; 
+	color: green; 
+}
+form.reg-form button:focus { 
+	outline: none; 
+	width: 200px; 
+}
+.select{
+	size: 30px;
+	height: 30px;
+	width: 55%;
+	border: 3px solid whitesmoke;
+	border-radius: 5px;
+}
+@media(max-width: 1000px) { 
+	form.reg-form { 
+		height: 100%; 
+		width: 100%; 
+	} 
+	.reg-form.input-contents { 
+		margin: 80px; 
+	} 
+	h1 { 
+	font-size: 32px; 
+	}
+	form.login-form{
+		height: 100%;
+		width: 100%;
+	} 
+	.login-form.input_contents{
+		margin: 80px;
+	}
+	h2{
+		font-size: 32px;
+	}
+}
+/*.tabel_1{
+	width: 100%;
+	border-collapse: collapse;
+	border: 5px solid white;
+	color: white;
+}
+th.tabel_1{
+	color: white;
+	height: 70px;
+	text-align: center;
+}
+td.tabel_1{
+	text-align: center;
+}
+caption.table_1 {
+  background-color: whitesmoke;
+  font-weight: 700;
+}*/
+/*.table_1 {
+  border-collapse: collapse;
+  border-spacing: 20px 10px;
+  border-width: thin 0 0 thin;
+  margin: 0 0 1em;
+  table-layout: auto;
+  max-width: 100%;
+  color: white;
+}
+
+th.table_1, td.table_1 {
+  font-weight: normal;
+  text-align: left;
+  border: 3px solid whitesmoke;
+}
+
+th.table_1 {
+  background-color: dark;
+  font-weight: 700;
+}
+
+caption.table_1 {
+  background-color: whitesmoke;
+  font-weight: 700;
+}*/
+
+
+/* Stil für den Footer - Junior */
+footer {
+  /* Hintergrundfarbe und Abstand zum unteren Bildschirmrand */
+  background-color: #333;
+  padding: 20px 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Text im Footer */
+footer p {
+  /* Textfarbe und Ausrichtung */
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Link im Footer */
+footer a {
+  /* Textfarbe und Textdekoration */
+  color: white;
+  text-decoration: none;
+}
+
+/* Stil für die Tabelle - Junior */
+.table_1 {
+  border-collapse: collapse;
+  margin: 0 0 1em;
+  table-layout: auto;
+  max-width: 100%;
+  color: white;
+}
+
+.table_1 th, .table_1 td {
+  /* Schriftstil und Textausrichtung */
+  font-weight: normal;
+  text-align: left;
+
+  /* Zellenabstand */
+  padding: 10px;
+
+  /* Linke und rechte Zellenränder */
+  border-left: 3px solid whitesmoke;
+  border-right: 3px solid whitesmoke;
+}
+
+.table_1 th {
+  /* Hintergrundfarbe für Tabellenkopf */
+  background-color: #444;
+  font-weight: 700;
+}
+
+.table_1 caption {
+  /* Hintergrundfarbe für Tabellenüberschrift */
+  background-color: whitesmoke;
+  font-weight: 700;
+}
+
+/* Stil für den Dropdown-Pfeil (nur für Firefox) */
+select::-moz-focus-inner {
+  border: none;
+}
+
+/* Stil für die Optionen innerhalb des Dropdowns */
+select option {
+  /* Hintergrundfarbe und Farbe des Textes */
+  background-color: #f2f2f2;
+  color: #333;
+}
+
